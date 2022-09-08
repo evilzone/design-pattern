@@ -1,3 +1,5 @@
+import com.observerpattern.Observable.StocksObservable;
+
 public class MobileAlertObserverImpl implements NotificationAlertObserver {
 
     String userName;

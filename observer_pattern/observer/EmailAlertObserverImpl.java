@@ -1,3 +1,5 @@
+import com.observerpattern.Observable.StocksObservable;
+
 public class EmailAlertObserverImpl implements NotificationAlertObserver {
     String emailId;
     StocksObservable observable;

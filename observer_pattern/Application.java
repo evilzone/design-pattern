@@ -1,3 +1,9 @@
+import com.observerpattern.Observable.IphoneObservableImpl;
+import com.observerpattern.Observable.StocksObservable;
+import com.observerpattern.Observer.EmailAlertObserverImpl;
+import com.observerpattern.Observer.MobileAlertObserverImpl;
+import com.observerpattern.Observer.NotificationAlertObserver;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -17,7 +23,5 @@ public class Application {
         iphoneObservable.add(observer3);
 
         iphoneObservable.setStockCount(10);
-
     }
-
 }

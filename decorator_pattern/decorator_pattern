@@ -1,0 +1,11 @@
+Decorator Pattern - Low level design
+====================================
+
+Use case:
+
+- Pizza shop (base + toppings (cheese, mushroom, vegs))
+- Car (base car + AC + seatcover + foglight)
+
+Why you need decorator pattern? - to avoid class explosion.
+
+- Class Explosion: managing classes become difficult with so many permutation and combination.

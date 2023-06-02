@@ -1,0 +1,10 @@
+Singleton pattern
+-----------------
+
+- it is used when we have one instance of the class
+
+- four ways to achieve this:
+    - eager
+    - lazy
+    - synchronized method
+    - double locking

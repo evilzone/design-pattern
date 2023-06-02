@@ -1,0 +1,18 @@
+- creational design pattern responsibility is to create objects/ controls the creation of objects
+
+
+    client  ------->     Prototype
+                      << interface >>
+                                            ----------->   class 1 [student]
+                                                                clone()
+
+
+                                            ----------->   class 2 [employee]
+                                                                clone()
+
+
+                                            ----------->   class n [professor]
+                                                                clone()
+
+
+- prototype interface also solves the consistency for the clone() method

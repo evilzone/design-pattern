@@ -1,0 +1,9 @@
+- it is used when all the object creation and its business logic we need to keep
+at one place.
+
+
+          ask                           creates object of
+Client -------------> Shape factory ----------------------->    Shape
+                                                                    --------> Circle
+                                                                    --------> Square
+                                                                    --------> Rectangle

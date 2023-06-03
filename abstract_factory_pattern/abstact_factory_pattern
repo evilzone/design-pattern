@@ -1,0 +1,12 @@
+- its a factory of factory
+
+
+client      -------->   Abstract Producer
+                                         -------> Abstract factory
+
+                                                               ----> Economic Car factory
+                                                               ----> Luxury Car factory
+                                                                                        ---> Car
+                                                                                                --> Economy car
+
+                                                                                                --> Luxury car

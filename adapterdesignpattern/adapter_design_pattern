@@ -1,0 +1,21 @@
+LLD: Adapter Design Pattern (structural design pattern)
+---------------------------
+
+- bridge the gap between expected interface and existing interface
+- Existing interface <-> Expected interface
+
+- examples
+    - power adapter (client) and socket (existing interface or adapter)
+    - xml to json parser
+
+        client                          adapter                                        server
+        (want json response)           (convert xml to json)                          (return xml)
+
+    - weight machine
+
+        Kg       Adapter(pound to kg)          100 Pounds (existing interfacel, adapter)
+
+    - we have three patterns
+        - creational
+        - behavioral
+        - structural: clubbing together two or more more objects to create a bigger structure

@@ -1,0 +1,23 @@
+Chain of Responsibility Design Pattern:
+
+Application usage :-
+    - ATM/ Vending machine
+    - design logger (Amazon)
+
+
+Sender -----> request -----> || recv_obj1 -> recv_obj2 -> recv_obj3
+(client)
+
+
+client ------->   Handler/ Processor/ Receiver handleRequest()  <<abstract>>
+
+Handler is_a relationship ConcreteHandler1, ConcreteHandler2
+
+Logger obj = new Logger();
+
+
+three types of messages:-
+
+obj.log(Info,  "msg");
+obj.log(Debug,  "msg");
+obj.log(Error,  "msg");

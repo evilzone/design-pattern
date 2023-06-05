@@ -1,7 +1,9 @@
+package com.software_design.null_design_pattern;
+
 public class VehicleFactory {
 
-    static Vehicle getVehicleObject(String vehicleType) {
-        if("Car".equals(vehicleType)) {
+    public static Vehicle getVehicleObject(String vehicle) {
+        if(vehicle.equals("CAR")) {
             return new Car();
         }
         return new NullVehicle();
